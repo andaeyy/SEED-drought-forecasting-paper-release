@@ -2,8 +2,6 @@
 
 This repository is the public, paper-aligned implementation for *Integrating the E3SM Land Model (ELM) and Deep Learning for Drought Forecasting*. SEED uses seven historical NLDAS forcing fields to predict ELM-derived evapotranspiration (ET) or soil moisture (SM) at 7-, 30-, and 90-day endpoint leads. It contains preprocessing, three supervised ConvLSTM families, frozen target-specific checkpoints, independent 2020 evaluation, joint ET-SM dryness translation, runtime benchmarking, the FastAPI/Next.js application, and paper figure resources.
 
-The release excludes GNN and PINN experiments and their artifacts.
-
 ## Supported versions
 
 - Python 3.10-3.13; Python 3.11 is recommended.
