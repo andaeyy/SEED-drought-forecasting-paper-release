@@ -1,0 +1,16 @@
+{
+  "target": "ET",
+  "lead_days": 30,
+  "input_days": 45,
+  "architecture": "sequence_to_map",
+  "hidden_channels": [64],
+  "learning_rate": 0.0003,
+  "gradient_clip_norm": null,
+  "batch_size": 2,
+  "maximum_epochs": 40,
+  "early_stopping_patience": 10,
+  "random_seed": 20260706,
+  "checkpoint": "checkpoints/selected_2019/Monthly/target_specific/keras_convlstm_et_best.keras",
+  "normalization": "checkpoints/selected_2019/Monthly/target_specific/keras_convlstm_et_norms.npz",
+  "checkpoint_sha256": "4ed03fdd6ce1579024bbbb36a2bae736e44133ebec566d2110841d265e583bb8"
+}

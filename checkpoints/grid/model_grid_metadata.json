@@ -1,0 +1,20 @@
+{
+  "description": "Cropped NLDAS model grid extracted from local yearly forcing and ELM ET/SM files for Streamlit app runtime.",
+  "source_forcing_pattern": "yearly/clmforc.nldas.YYYY.nc",
+  "source_et_file": "ELM_EVAPOTRANSPIRATION_2000_2019.nc",
+  "source_sm_file": "ELM_SM_2000-2019.nc",
+  "lat_shape": [
+    142,
+    95
+  ],
+  "lon_shape": [
+    142,
+    95
+  ],
+  "elm_bounds": {
+    "latmin": 26.1875,
+    "latmax": 43.5625,
+    "lonmin": -106.6875,
+    "lonmax": -95.1875
+  }
+}

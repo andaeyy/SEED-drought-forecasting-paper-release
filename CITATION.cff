@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "SEED drought forecasting paper release"
+type: software
+version: 1.0.0
+date-released: 2026-08-07
+authors:
+  - family-names: Ma
+    given-names: Andrew
+  - family-names: Gholinia
+    given-names: Ali
+  - family-names: Gholizadeh
+    given-names: Fatemeh
+  - family-names: Tran
+    given-names: Hoang
+  - family-names: Fang
+    given-names: Yilin
+  - family-names: Bisht
+    given-names: Gautam
+  - family-names: Leung
+    given-names: Ruby
+  - family-names: Abbaszadeh
+    given-names: Peyman
+preferred-citation:
+  type: article
+  title: "Integrating the E3SM Land Model (ELM) and Deep Learning for Drought Forecasting"
+  year: 2026
+  authors:
+    - family-names: Ma
+      given-names: Andrew
+    - family-names: Gholinia
+      given-names: Ali
+    - family-names: Gholizadeh
+      given-names: Fatemeh
+    - family-names: Tran
+      given-names: Hoang
+    - family-names: Fang
+      given-names: Yilin
+    - family-names: Bisht
+      given-names: Gautam
+    - family-names: Leung
+      given-names: Ruby
+    - family-names: Abbaszadeh
+      given-names: Peyman

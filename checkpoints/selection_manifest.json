@@ -1,0 +1,54 @@
+{
+  "selection_period": ["2019-01-01", "2019-12-31"],
+  "independent_test_period": ["2020-01-01", "2020-12-31"],
+  "records": [
+    {
+      "target": "ET",
+      "lead_days": 7,
+      "checkpoint": "selected_2019/Weekly/target_specific/keras_convlstm_et_best.keras",
+      "checkpoint_sha256": "ae77691d058c426cf7e1504ed4d5aa22759fa6e87e53bcc5e1ad74f46c6ef8b1",
+      "normalizer": "selected_2019/Weekly/target_specific/keras_convlstm_et_norms.npz",
+      "normalizer_sha256": "82ddc6e32ecca7bc8454e1d86a50e44cb4d8e365b910d6fa5852751a97b9a3eb"
+    },
+    {
+      "target": "ET",
+      "lead_days": 30,
+      "checkpoint": "selected_2019/Monthly/target_specific/keras_convlstm_et_best.keras",
+      "checkpoint_sha256": "4ed03fdd6ce1579024bbbb36a2bae736e44133ebec566d2110841d265e583bb8",
+      "normalizer": "selected_2019/Monthly/target_specific/keras_convlstm_et_norms.npz",
+      "normalizer_sha256": "b1c325d30f6d78b73d33cec570f0197bc4e313d9efea4da28da98aeb9f423590"
+    },
+    {
+      "target": "ET",
+      "lead_days": 90,
+      "checkpoint": "selected_2019/Seasonal/target_specific/keras_convlstm_et_best.keras",
+      "checkpoint_sha256": "49f452c92ae46b76d27e30b533c7da6c37a53527fccb46641528568553c8d538",
+      "normalizer": "selected_2019/Seasonal/target_specific/keras_convlstm_et_norms.npz",
+      "normalizer_sha256": "f2c77caa8e93e4386394cb2255d1115ead839e5d04522144108084730fda6ee9"
+    },
+    {
+      "target": "SM",
+      "lead_days": 7,
+      "checkpoint": "selected_2019/Weekly/target_specific/keras_convlstm_sm_best.keras",
+      "checkpoint_sha256": "26dcdd9b33149847eaedc4c4c331bacfe615289d46c8eecf767974fa960ecc29",
+      "normalizer": "selected_2019/Weekly/target_specific/keras_convlstm_sm_norms.npz",
+      "normalizer_sha256": "45fb0a0327895709478864a8bdb43f722ea865f5d3e1a2820d3ad762251caf51"
+    },
+    {
+      "target": "SM",
+      "lead_days": 30,
+      "checkpoint": "selected_2019/Monthly/target_specific/keras_convlstm_sm_best.keras",
+      "checkpoint_sha256": "599c9de5ce721cf3d544c94c72cebad69cd4933f1e3272ff1748c334175f444c",
+      "normalizer": "selected_2019/Monthly/target_specific/keras_convlstm_sm_norms.npz",
+      "normalizer_sha256": "306b48f6e85dbea021447cd6cda637d10d34fb25cb6dafea29cad253be62e8c4"
+    },
+    {
+      "target": "SM",
+      "lead_days": 90,
+      "checkpoint": "selected_2019/Seasonal/target_specific/keras_convlstm_sm_best.keras",
+      "checkpoint_sha256": "b5f264c5094271933b8156e356006d909a0565b9a2b2fd7d12db1aa3131304ae",
+      "normalizer": "selected_2019/Seasonal/target_specific/keras_convlstm_sm_norms.npz",
+      "normalizer_sha256": "9eeed9e9189ea0ca80cdb0cb5eccbd36b2acf76512b667977714c26430ebafde"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+target,horizon_days,model_id,validation_2019_RMSE,validation_2019_KGE,independent_test_2020_RMSE,independent_test_2020_KGE,test_n_valid,support_policy
+ET,7,001_base_7var_weekly_ARconvlstm_7d_low_lr_clip,0.9029731832844375,0.7432673422748493,0.942257086166107,0.6750702806527594,4791720,paired finite ELM-derived target and selected-model prediction
+ET,30,029_base_7var_monthly_Seq2seqconvlstm_30d_compact_1layer,0.9602196587314704,0.6825451677968237,1.0105929702323782,0.605703374784754,4791720,paired finite ELM-derived target and selected-model prediction
+ET,90,034_base_7var_seasonal_ARconvlstm_90d_compact_1layer,0.9887386044873248,0.6648290345624486,1.0769409686120657,0.551062754848797,4791720,paired finite ELM-derived target and selected-model prediction
+SM,7,007_base_7var_weekly_DEconvlstm_7d_low_lr_wd_hidden48,0.0379169132414769,0.8365233561156074,0.04246677721071587,0.8157434259684406,4799385,paired finite ELM-derived target and selected-model prediction
+SM,30,024_base_7var_monthly_DEconvlstm_30d_compact_1layer,0.043269599874120004,0.7919379946732018,0.04796996828666373,0.7429764992380417,4799385,paired finite ELM-derived target and selected-model prediction
+SM,90,037_base_7var_seasonal_DEconvlstm_90d_low_lr_wd_hidden48,0.04506614123027892,0.748029018344426,0.05196681076104218,0.6981237320005877,4799385,paired finite ELM-derived target and selected-model prediction

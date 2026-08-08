@@ -1,0 +1,76 @@
+{
+  "horizon_days": 30,
+  "independent_test_period": "2020",
+  "input_days": 45,
+  "input_variables": [
+    "PRECTmms",
+    "TBOT",
+    "WIND",
+    "QBOT",
+    "PSRF",
+    "FSDS",
+    "FLDS"
+  ],
+  "prediction_semantics": "one endpoint map at lead day K",
+  "schema": "seed_target_specific_model_bundle/v1",
+  "selection": {
+    "period": "2019 validation",
+    "source_sha256": "7aa520837e4ae0fddf9036f424a6df5ed1249cf6835d03e5c79e6112f5af5662"
+  },
+  "targets": {
+    "ET": {
+      "architecture": "seq2seq",
+      "checkpoint": {
+        "bytes": 10720622,
+        "filename": "keras_convlstm_et_best.keras",
+        "sha256": "4ed03fdd6ce1579024bbbb36a2bae736e44133ebec566d2110841d265e583bb8"
+      },
+      "family": "base_7var",
+      "horizon_days": 30,
+      "independent_test_period": "2020",
+      "input_channels": 7,
+      "input_days": 45,
+      "model_id": "029_base_7var_monthly_Seq2seqconvlstm_30d_compact_1layer",
+      "normalizer": {
+        "bytes": 1082,
+        "filename": "keras_convlstm_et_norms.npz",
+        "sha256": "b1c325d30f6d78b73d33cec570f0197bc4e313d9efea4da28da98aeb9f423590"
+      },
+      "prediction_semantics": "one endpoint map at lead day K",
+      "selection_period": "2019 validation",
+      "trial": "compact_1layer",
+      "validation_2019": {
+        "KGE": 0.6825451677968237,
+        "RMSE": 0.9602196587314704
+      }
+    },
+    "SM": {
+      "architecture": "encdec",
+      "checkpoint": {
+        "bytes": 30002671,
+        "filename": "keras_convlstm_sm_best.keras",
+        "sha256": "599c9de5ce721cf3d544c94c72cebad69cd4933f1e3272ff1748c334175f444c"
+      },
+      "family": "base_7var",
+      "horizon_days": 30,
+      "independent_test_period": "2020",
+      "input_channels": 7,
+      "input_days": 45,
+      "model_id": "024_base_7var_monthly_DEconvlstm_30d_compact_1layer",
+      "normalizer": {
+        "bytes": 1082,
+        "filename": "keras_convlstm_sm_norms.npz",
+        "sha256": "306b48f6e85dbea021447cd6cda637d10d34fb25cb6dafea29cad253be62e8c4"
+      },
+      "prediction_semantics": "one endpoint map at lead day K",
+      "selection_period": "2019 validation",
+      "trial": "compact_1layer",
+      "validation_2019": {
+        "KGE": 0.7919379946732018,
+        "RMSE": 0.043269599874120004
+      }
+    }
+  },
+  "timescale": "Monthly",
+  "version": "selected_2019"
+}

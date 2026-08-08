@@ -1,0 +1,11 @@
+{
+  "training_period": ["2015-01-01", "2018-12-31"],
+  "selection_period": ["2019-01-01", "2019-12-31"],
+  "test_period": ["2020-01-01", "2020-12-31"],
+  "persistence_comparison": ["2020-08-13", "2020-12-31"],
+  "persistence_date_count": 141,
+  "minimum_gridcell_pairs": 300,
+  "minimum_spatial_cells": 100,
+  "rmse_gain": "persistence_rmse - seed_rmse",
+  "kge_gain": "seed_kge - persistence_kge"
+}

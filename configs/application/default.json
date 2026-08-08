@@ -1,0 +1,10 @@
+{
+  "copula_tau": 0.4,
+  "climatology_window_days": 31,
+  "climatology_training_period": ["2015-01-01", "2018-12-31"],
+  "timescales": {
+    "Weekly": {"input_days": 10, "lead_days": 7},
+    "Monthly": {"input_days": 45, "lead_days": 30},
+    "Seasonal": {"input_days": 135, "lead_days": 90}
+  }
+}

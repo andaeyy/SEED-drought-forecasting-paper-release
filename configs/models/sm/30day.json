@@ -1,0 +1,16 @@
+{
+  "target": "SM",
+  "lead_days": 30,
+  "input_days": 45,
+  "architecture": "encoder_decoder",
+  "hidden_channels": [64],
+  "learning_rate": 0.0003,
+  "gradient_clip_norm": null,
+  "batch_size": 2,
+  "maximum_epochs": 40,
+  "early_stopping_patience": 10,
+  "random_seed": 20260706,
+  "checkpoint": "checkpoints/selected_2019/Monthly/target_specific/keras_convlstm_sm_best.keras",
+  "normalization": "checkpoints/selected_2019/Monthly/target_specific/keras_convlstm_sm_norms.npz",
+  "checkpoint_sha256": "599c9de5ce721cf3d544c94c72cebad69cd4933f1e3272ff1748c334175f444c"
+}

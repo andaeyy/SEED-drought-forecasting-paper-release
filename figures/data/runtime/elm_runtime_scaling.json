@@ -1,0 +1,23 @@
+[
+  {
+    "nodes": 1,
+    "mpi_ranks": 20,
+    "median_seconds": 840.1152174960007,
+    "speedup_vs_1_node": 1.0,
+    "parallel_efficiency": 1.0
+  },
+  {
+    "nodes": 2,
+    "mpi_ranks": 40,
+    "median_seconds": 545.9054228580062,
+    "speedup_vs_1_node": 1.5389391317963157,
+    "parallel_efficiency": 0.7694695658981578
+  },
+  {
+    "nodes": 4,
+    "mpi_ranks": 80,
+    "median_seconds": 500.7982668929908,
+    "speedup_vs_1_node": 1.6775521662807875,
+    "parallel_efficiency": 0.4193880415701969
+  }
+]

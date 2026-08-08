@@ -1,0 +1,27 @@
+{
+  "elm": {
+    "version": "E3SM 3.0.2",
+    "commit": "4412b3a229320d91d4a7d66752e0774a85f14109",
+    "compset": "IELM",
+    "grid": [140, 93],
+    "timestep_seconds": 1800,
+    "initialization_dates": ["2019-01-01", "2019-04-01", "2019-07-01", "2019-10-01"],
+    "lead_days": [7, 30, 90],
+    "warmup_repetitions": 1,
+    "timed_repetitions": 3,
+    "timing_start": "immediately before srun",
+    "timing_stop": "after validated endpoint write",
+    "cpu": "Intel Xeon E5-2630 v4 at 2.20 GHz",
+    "mpi_ranks_per_node": 20,
+    "openmp_threads": 1
+  },
+  "seed": {
+    "gpu": "NVIDIA A40",
+    "batch_size": 1,
+    "supporting_cpu_cores": 8,
+    "warmup_calls": 1,
+    "timed_repetitions": 200,
+    "pair_order": "ET then SM",
+    "timing_excludes": ["input preparation", "model loading", "first-call tracing"]
+  }
+}
