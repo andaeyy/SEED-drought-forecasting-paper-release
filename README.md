@@ -2,7 +2,7 @@
 
 This repository is the public, paper-aligned implementation for *Integrating the E3SM Land Model (ELM) and Deep Learning for Drought Forecasting*. SEED uses seven historical NLDAS forcing fields to predict ELM-derived evapotranspiration (ET) or soil moisture (SM) at 7-, 30-, and 90-day endpoint leads. It contains preprocessing, three supervised ConvLSTM families, frozen target-specific checkpoints, independent 2020 evaluation, joint ET-SM dryness translation, runtime benchmarking, the FastAPI/Next.js application, and paper figure resources.
 
-The release deliberately excludes GNN and PINN experiments and their artifacts. Figures describing those excluded experiments are documented but are not distributed.
+The release excludes GNN and PINN experiments and their artifacts.
 
 ## Supported versions
 
@@ -21,7 +21,7 @@ cd apps/web && npm ci && cd ../..
 git lfs pull
 ```
 
-The six `.keras` checkpoints are tracked with Git LFS. A manually transferred copy must include the Git LFS objects or the materialized checkpoint files.
+The six `.keras` checkpoints are tracked with Git LFS.
 
 ## External data
 
@@ -104,8 +104,8 @@ cd apps/web && npm run lint && npm run build
 npx playwright test
 ```
 
-Expected outputs are written to `data/processed`, `outputs`, `figures/final`, and application caches selected by environment variables. These generated directories are ignored except for the released figure and benchmark artifacts.
+Expected outputs are written to `data/processed`, `outputs`, and `figures/final`.
 
 ## Citation and history
 
-Citation metadata are in [CITATION.cff](CITATION.cff). The source folder had no usable Git repository, so this public release begins with a fresh commit; no claim of preserved prior commit history is made. See [docs/included-files.md](docs/included-files.md) and [docs/excluded-files.md](docs/excluded-files.md) for the release boundary.
+Citation metadata are in [CITATION.cff](CITATION.cff). This release begins with fresh Git history because the source workspace was not a Git repository.

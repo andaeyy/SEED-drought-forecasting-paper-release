@@ -32,4 +32,4 @@ The six model JSON files contain checkpoint SHA-256 values. Verify them with:
 sha256sum checkpoints/selected_2019/*/target_specific/*.keras
 ```
 
-Normalizer hashes are listed in `docs/included-files.md`.
+Normalizer hashes are listed in `checkpoints/selection_manifest.json`.

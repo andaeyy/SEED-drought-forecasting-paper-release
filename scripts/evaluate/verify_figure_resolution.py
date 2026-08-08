@@ -24,7 +24,7 @@ def main() -> None:
     parser.add_argument("--figure-dir", type=Path, default=root / "figures" / "final")
     parser.add_argument("--display-width-in", type=float, default=5.04)
     parser.add_argument("--minimum-dpi", type=float, default=600.0)
-    parser.add_argument("--output", type=Path, default=root / "figures" / "final" / "figure_verification.json")
+    parser.add_argument("--output", type=Path)
     args = parser.parse_args()
 
     records = []
@@ -54,8 +54,9 @@ def main() -> None:
         "all_pass": True,
         "figures": records,
     }
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    if args.output:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(payload, indent=2))
 
 

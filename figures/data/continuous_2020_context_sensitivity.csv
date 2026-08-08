@@ -1,7 +1,0 @@
-target,horizon_days,model_id,subset_start,subset_end,RMSE,KGE,n_valid,purpose
-ET,7,001_base_7var_weekly_ARconvlstm_7d_low_lr_clip,2020-08-13,2020-12-31,0.8047502213457285,0.5671168643559976,1851048,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
-ET,30,029_base_7var_monthly_Seq2seqconvlstm_30d_compact_1layer,2020-08-13,2020-12-31,0.8833386723126989,0.40256144518287396,1851048,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
-ET,90,034_base_7var_seasonal_ARconvlstm_90d_compact_1layer,2020-08-13,2020-12-31,1.0277171571179375,0.1955664113941471,1851048,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
-SM,7,007_base_7var_weekly_DEconvlstm_7d_low_lr_wd_hidden48,2020-08-13,2020-12-31,0.046062898641733054,0.7649350166596591,1854009,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
-SM,30,024_base_7var_monthly_DEconvlstm_30d_compact_1layer,2020-08-13,2020-12-31,0.05080867109634391,0.6705619304061005,1854009,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
-SM,90,037_base_7var_seasonal_DEconvlstm_90d_low_lr_wd_hidden48,2020-08-13,2020-12-31,0.05791887390920515,0.6293221119996866,1854009,sensitivity period for which even the 135-day/90-day setup uses only forcing context from the standalone 2020 ELM year
